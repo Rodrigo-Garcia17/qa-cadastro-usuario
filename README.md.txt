@@ -45,6 +45,35 @@ Inclui colunas de ID, funcionalidade, pré-condições, passos, resultado espera
 
 ---
 
+## 📸 Evidências
+
+As evidências de execução dos testes estão organizadas na pasta `/Evidencias`.
+
+Cada imagem corresponde a um **caso de teste executado** durante a validação manual no site [Automation Practice](https://automationpratice.com.br/register).
+
+| ID  | Caso de Teste                                | Resultado | Observações |
+|-----|----------------------------------------------|------------|--------------|
+| CT01 | Cadastro com dados válidos                  | ✅ Passou  | Fluxo completo validado |
+| CT02 | Cadastro com e-mail inválido                | ✅ Passou  | Mensagem de erro exibida corretamente |
+| CT03 | Cadastro sem preencher o campo Nome         | ✅ Passou  | Validação de campo obrigatório |
+| CT04 | Cadastro sem senha                          | ✅ Passou  | Mensagem de erro exibida |
+| CT05 | Senha fraca (menos de 6 caracteres)         | ⚠️ Falhou  | Sistema aceitou senha com 3 caracteres |
+| CT06 | Cadastro com e-mail já cadastrado           | ✅ Passou  | Mensagem adequada de duplicidade |
+| CT07 | Bug - Senha aceita com 3 caracteres         | ❌ Bug encontrado | Reportado no Trello |
+| CT08 | Campos obrigatórios corretamente preenchidos| ✅ Passou  | Cadastro concluído com sucesso |
+
+📂 **Pasta:** [`/Evidencias`](./Evidencias)
+
+Cada evidência contém:
+- **Print da tela do resultado do teste**
+- **Identificação do caso (CTXX)**  
+- **Status e observação breve**
+
+🎥 *Caso tenha vídeos de execução:*  
+[Ver execução em vídeo (Google Drive)](https://drive.google.com/...) *(substitua pelo seu link, se quiser adicionar)*
+
+---
+
 ## 🐞 Bug Encontrado
 
 Durante a execução do caso **CT07 - Senha com menos de 6 caracteres**, foi identificado um **defeito funcional**:
@@ -53,7 +82,7 @@ Durante a execução do caso **CT07 - Senha com menos de 6 caracteres**, foi ide
 - **Status:** Aberto  
 - **Prioridade:** Média  
 - **Evidência:** Captura de tela anexada no Trello (card de bug).  
-- **Ação esperada:** Implementar validação mínima de 6 caracteres para campo “Senha”.  
+- **Ação esperada:** Implementar validação mínima de 6 caracteres para o campo “Senha”.  
 
 ---
 
@@ -72,7 +101,7 @@ Durante a execução do caso **CT07 - Senha com menos de 6 caracteres**, foi ide
 Durante o desenvolvimento deste projeto, pratiquei:
 - Criação e estruturação de casos de teste.  
 - Escrita clara e objetiva de resultados esperados.  
-- Organização de tarefas no Trello.  
+- Organização de tarefas e status no Trello.  
 - Registro e documentação de bugs.  
 - Apresentação profissional de um projeto QA no GitHub.  
 
@@ -81,8 +110,8 @@ Durante o desenvolvimento deste projeto, pratiquei:
 ## 📎 Contato
 
 📧 **Rodrigo Garcia da Silva**  
-💼 [LinkedIn](https://www.https://www.linkedin.com/in/rodrigo-garcia-da-silva/)  
-🐙 [GitHub](https://github.com/) (https://github.com/Rodrigo-Garcia17/qa-cadastro-usuario) 
+💼 [LinkedIn](https://www.linkedin.com/in/rodrigogarciadasilva/)  
+🐙 [GitHub](https://github.com/) *(adicione seu link aqui após subir o projeto)*  
 
 ---
 
