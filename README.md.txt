@@ -82,7 +82,7 @@ Durante o desenvolvimento deste projeto, pratiquei:
 
 📧 **Rodrigo Garcia da Silva**  
 💼 [LinkedIn](https://www.https://www.linkedin.com/in/rodrigo-garcia-da-silva/)  
-🐙 [GitHub](https://github.com/) *(adicione seu link aqui após subir o projeto)*  
+🐙 [GitHub](https://github.com/) (https://github.com/Rodrigo-Garcia17/qa-cadastro-usuario) 
 
 ---
 
